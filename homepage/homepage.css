@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+nav{
+    background-color:#010f17;
+    
+}
+nav ul{
+    padding:10px;
+    display: flex;
+    justify-content:end;
+    list-style: none;
+    
+}
+nav ul li{
+    padding: 10px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: #fff;
+    margin: 20px 0;
+}
+nav ul li a:hover{
+    color: #023352;
+    transition: 0.3s ease-in all;
+}
+.aboutme h1{
+    color: #383838;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.aboutme h2{
+    color: #383838;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+.aboutme p{
+    display: inline-block;
+    height: 30px;
+    color: #383838;
+    text-align: center;
+    font-size:22px;
+    padding-left: 20px;
+    padding-bottom: 100px;
+}
+.aboutme img{
+    width:400px;
+    border-radius: 500px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    padding-bottom: 40px;
+}
+/* footer */
+footer {
+    left: 0;
+    bottom:0;
+    background-color:#010f17;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.copyright p {
+    font-size: 18px;
+    color: #eee;
+}
